@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smythe', cursive;
+} 
+
+.content{
+    width: 600px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+    /* height: 1161px; */
+    /* background-color: lightblue; */
+}
+
+.header{
+    height: 167px;
+    background-image: url('./images/burguer-cover.jpg');
+    background-size: cover;    
+    background-position: bottom right ;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.header-content{
+    margin-top: 46px;
+    margin-left: 46px;
+    position: absolute;
+}
+
+.header-content h1{
+    font-size: 39px;
+}
+
+.header-content p{
+    font-size: 22px;
+}
+
+.menu-items{
+    flex-direction: column;
+}
+
+.menu-items, 
+.item-menu{
+    display: flex;
+}
+
+.item-menu{
+    width: 508px;
+    height: 140px;
+    border-bottom: 1px solid #D2D2D2;
+    margin-left: 46px;
+    align-items: center;
+    
+
+
+    /* background-color: lightcoral; */
+
+}
+
+.item-menu-img{
+    font-size: 80px;
+    margin-right: 31px;
+    width: 109px;
+    text-align: center;
+}
+
+.item-menu-info h3{
+    font-size: 28px;
+}
+
+.item-menu-info p{
+    color: #8B8B8B;
+    margin-bottom: 10px;
+}
+
+.item-menu-info h4{
+    font-size: 20px;
+}
+
+.item-menu-btn{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.item-menu-btn button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 32px;
+    border: 1px solid #8B8B8B;
+    color: #3C3C3C;
+    background: none;
+    
+
+}
